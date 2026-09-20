@@ -1,0 +1,1857 @@
+{
+  "test_set": {
+    "letters": 28,
+    "unclear": 3
+  },
+  "accuracy": {
+    "ctc": 24,
+    "whisper": 17,
+    "total": 28
+  },
+  "per_clip": [
+    {
+      "file": "alif.m4a",
+      "letter": "ا",
+      "expected": "alif",
+      "ctc_heard": "alif",
+      "ctc_conf": 0.9998,
+      "ctc_margin": 9.2646,
+      "ctc_greedy": "ألف",
+      "whisper_text": "ألف",
+      "whisper_matched": "alif",
+      "whisper_edit_distance": 0,
+      "mic": "on",
+      "duration_s": 2.56
+    },
+    {
+      "file": "baa.m4a",
+      "letter": "ب",
+      "expected": "baa",
+      "ctc_heard": "baa",
+      "ctc_conf": 0.9249,
+      "ctc_margin": 4.3005,
+      "ctc_greedy": "باء",
+      "whisper_text": "بات",
+      "whisper_matched": "baa",
+      "whisper_edit_distance": 1,
+      "mic": "on",
+      "duration_s": 2.45
+    },
+    {
+      "file": "taa.m4a",
+      "letter": "ت",
+      "expected": "taa",
+      "ctc_heard": "taa",
+      "ctc_conf": 0.9563,
+      "ctc_margin": 4.7731,
+      "ctc_greedy": "تاء",
+      "whisper_text": "تأ",
+      "whisper_matched": "taa",
+      "whisper_edit_distance": 1,
+      "mic": "on",
+      "duration_s": 2.65
+    },
+    {
+      "file": "thaa.m4a",
+      "letter": "ث",
+      "expected": "thaa",
+      "ctc_heard": "baa",
+      "ctc_conf": 0.8154,
+      "ctc_margin": 3.1846,
+      "ctc_greedy": "باء",
+      "whisper_text": "بأ",
+      "whisper_matched": "baa",
+      "whisper_edit_distance": 1,
+      "mic": "on",
+      "duration_s": 2.09
+    },
+    {
+      "file": "jeem.m4a",
+      "letter": "ج",
+      "expected": "jeem",
+      "ctc_heard": "jeem",
+      "ctc_conf": 0.9934,
+      "ctc_margin": 5.0648,
+      "ctc_greedy": "جيم",
+      "whisper_text": "جيم",
+      "whisper_matched": "jeem",
+      "whisper_edit_distance": 0,
+      "mic": "on",
+      "duration_s": 2.52
+    },
+    {
+      "file": "haae.m4a",
+      "letter": "ح",
+      "expected": "Haa",
+      "ctc_heard": "Haa",
+      "ctc_conf": 0.9312,
+      "ctc_margin": 3.8505,
+      "ctc_greedy": "حاء",
+      "whisper_text": "ها",
+      "whisper_matched": "haa",
+      "whisper_edit_distance": 1,
+      "mic": "on",
+      "duration_s": 2.28
+    },
+    {
+      "file": "khaa.m4a",
+      "letter": "خ",
+      "expected": "khaa",
+      "ctc_heard": "Taa",
+      "ctc_conf": 0.6229,
+      "ctc_margin": 1.0087,
+      "ctc_greedy": "خْطَاءَ",
+      "whisper_text": "اع",
+      "whisper_matched": "alif",
+      "whisper_edit_distance": 2,
+      "mic": "on",
+      "duration_s": 1.9
+    },
+    {
+      "file": "daal.m4a",
+      "letter": "د",
+      "expected": "daal",
+      "ctc_heard": "daal",
+      "ctc_conf": 0.9861,
+      "ctc_margin": 4.3078,
+      "ctc_greedy": "الدَّالُ",
+      "whisper_text": "دان",
+      "whisper_matched": "daal",
+      "whisper_edit_distance": 1,
+      "mic": "on",
+      "duration_s": 1.79
+    },
+    {
+      "file": "thaal.m4a",
+      "letter": "ذ",
+      "expected": "dhaal",
+      "ctc_heard": "dhaal",
+      "ctc_conf": 0.9491,
+      "ctc_margin": 2.9354,
+      "ctc_greedy": "ذَالُ",
+      "whisper_text": "ذال",
+      "whisper_matched": "dhaal",
+      "whisper_edit_distance": 0,
+      "mic": "on",
+      "duration_s": 2.09
+    },
+    {
+      "file": "raa.m4a",
+      "letter": "ر",
+      "expected": "raa",
+      "ctc_heard": "raa",
+      "ctc_conf": 0.9643,
+      "ctc_margin": 4.8101,
+      "ctc_greedy": "راء",
+      "whisper_text": "رأى",
+      "whisper_matched": "raa",
+      "whisper_edit_distance": 1,
+      "mic": "on",
+      "duration_s": 1.9
+    },
+    {
+      "file": "zaae.m4a",
+      "letter": "ز",
+      "expected": "zay",
+      "ctc_heard": "zay",
+      "ctc_conf": 0.7158,
+      "ctc_margin": 2.5221,
+      "ctc_greedy": "ازدعء",
+      "whisper_text": "زيب",
+      "whisper_matched": "jeem",
+      "whisper_edit_distance": 2,
+      "mic": "on",
+      "duration_s": 1.94
+    },
+    {
+      "file": "seen.m4a",
+      "letter": "س",
+      "expected": "seen",
+      "ctc_heard": "seen",
+      "ctc_conf": 0.9878,
+      "ctc_margin": 4.7827,
+      "ctc_greedy": "سين",
+      "whisper_text": "سين",
+      "whisper_matched": "seen",
+      "whisper_edit_distance": 0,
+      "mic": "on",
+      "duration_s": 2.71
+    },
+    {
+      "file": "sheen.m4a",
+      "letter": "ش",
+      "expected": "sheen",
+      "ctc_heard": "sheen",
+      "ctc_conf": 0.9763,
+      "ctc_margin": 3.9443,
+      "ctc_greedy": "شين",
+      "whisper_text": "شين",
+      "whisper_matched": "sheen",
+      "whisper_edit_distance": 0,
+      "mic": "on",
+      "duration_s": 1.77
+    },
+    {
+      "file": "saad.m4a",
+      "letter": "ص",
+      "expected": "saad",
+      "ctc_heard": "saad",
+      "ctc_conf": 0.9152,
+      "ctc_margin": 2.765,
+      "ctc_greedy": "صطاد",
+      "whisper_text": "ساد",
+      "whisper_matched": "saad",
+      "whisper_edit_distance": 1,
+      "mic": "on",
+      "duration_s": 2.24
+    },
+    {
+      "file": "daad.m4a",
+      "letter": "ض",
+      "expected": "Daad",
+      "ctc_heard": "Daad",
+      "ctc_conf": 0.9085,
+      "ctc_margin": 2.9967,
+      "ctc_greedy": "داد",
+      "whisper_text": "داد",
+      "whisper_matched": "daal",
+      "whisper_edit_distance": 1,
+      "mic": "on",
+      "duration_s": 1.86
+    },
+    {
+      "file": "taa'.m4a",
+      "letter": "ط",
+      "expected": "Taa",
+      "ctc_heard": "Taa",
+      "ctc_conf": 0.9473,
+      "ctc_margin": 4.6377,
+      "ctc_greedy": "طاء",
+      "whisper_text": "باق",
+      "whisper_matched": "baa",
+      "whisper_edit_distance": 1,
+      "mic": "on",
+      "duration_s": 1.96
+    },
+    {
+      "file": "dhaa.m4a",
+      "letter": "ظ",
+      "expected": "DHaa",
+      "ctc_heard": "DHaa",
+      "ctc_conf": 0.404,
+      "ctc_margin": 0.6546,
+      "ctc_greedy": "ضاء",
+      "whisper_text": "و",
+      "whisper_matched": "noon",
+      "whisper_edit_distance": 2,
+      "mic": "on",
+      "duration_s": 1.71
+    },
+    {
+      "file": "ayn.m4a",
+      "letter": "ع",
+      "expected": "ayn",
+      "ctc_heard": "ayn",
+      "ctc_conf": 0.9879,
+      "ctc_margin": 4.9511,
+      "ctc_greedy": "عين",
+      "whisper_text": "اين",
+      "whisper_matched": "seen",
+      "whisper_edit_distance": 1,
+      "mic": "on",
+      "duration_s": 2.94
+    },
+    {
+      "file": "ghayn.m4a",
+      "letter": "غ",
+      "expected": "ghayn",
+      "ctc_heard": "ayn",
+      "ctc_conf": 0.9806,
+      "ctc_margin": 4.6497,
+      "ctc_greedy": "إضبعين",
+      "whisper_text": "وضعين",
+      "whisper_matched": "ayn",
+      "whisper_edit_distance": 2,
+      "mic": "on",
+      "duration_s": 2.09
+    },
+    {
+      "file": "meem.m4a",
+      "letter": "م",
+      "expected": "meem",
+      "ctc_heard": "meem",
+      "ctc_conf": 0.9831,
+      "ctc_margin": 5.3889,
+      "ctc_greedy": "م",
+      "whisper_text": "ميم",
+      "whisper_matched": "meem",
+      "whisper_edit_distance": 0,
+      "mic": "on",
+      "duration_s": 2.65
+    },
+    {
+      "file": "faa.m4a",
+      "letter": "ف",
+      "expected": "faa",
+      "ctc_heard": "faa",
+      "ctc_conf": 0.9481,
+      "ctc_margin": 4.0631,
+      "ctc_greedy": "فاء",
+      "whisper_text": "فأ",
+      "whisper_matched": "faa",
+      "whisper_edit_distance": 1,
+      "mic": "off",
+      "duration_s": 2.52
+    },
+    {
+      "file": "qaaf.m4a",
+      "letter": "ق",
+      "expected": "qaaf",
+      "ctc_heard": "qaaf",
+      "ctc_conf": 0.9941,
+      "ctc_margin": 5.2467,
+      "ctc_greedy": "قاف",
+      "whisper_text": "قاف",
+      "whisper_matched": "qaaf",
+      "whisper_edit_distance": 0,
+      "mic": "off",
+      "duration_s": 2.6
+    },
+    {
+      "file": "kaef.m4a",
+      "letter": "ك",
+      "expected": "kaaf",
+      "ctc_heard": "kaaf",
+      "ctc_conf": 0.9929,
+      "ctc_margin": 5.0608,
+      "ctc_greedy": "كاف",
+      "whisper_text": "كيف",
+      "whisper_matched": "kaaf",
+      "whisper_edit_distance": 1,
+      "mic": "off",
+      "duration_s": 2.79
+    },
+    {
+      "file": "laam.m4a",
+      "letter": "ل",
+      "expected": "laam",
+      "ctc_heard": "laam",
+      "ctc_conf": 0.9999,
+      "ctc_margin": 9.8704,
+      "ctc_greedy": "لام",
+      "whisper_text": "لام",
+      "whisper_matched": "laam",
+      "whisper_edit_distance": 0,
+      "mic": "off",
+      "duration_s": 2.13
+    },
+    {
+      "file": "noon.m4a",
+      "letter": "ن",
+      "expected": "noon",
+      "ctc_heard": "noon",
+      "ctc_conf": 0.9998,
+      "ctc_margin": 9.7295,
+      "ctc_greedy": "نون",
+      "whisper_text": "نون",
+      "whisper_matched": "noon",
+      "whisper_edit_distance": 0,
+      "mic": "off",
+      "duration_s": 2.18
+    },
+    {
+      "file": "haa.m4a",
+      "letter": "ه",
+      "expected": "haa",
+      "ctc_heard": "Haa",
+      "ctc_conf": 0.8577,
+      "ctc_margin": 2.4426,
+      "ctc_greedy": "حاء",
+      "whisper_text": "ها",
+      "whisper_matched": "haa",
+      "whisper_edit_distance": 1,
+      "mic": "off",
+      "duration_s": 2.09
+    },
+    {
+      "file": "waw.m4a",
+      "letter": "و",
+      "expected": "waw",
+      "ctc_heard": "waw",
+      "ctc_conf": 0.9598,
+      "ctc_margin": 3.7921,
+      "ctc_greedy": "فواو",
+      "whisper_text": "wow",
+      "whisper_matched": "alif",
+      "whisper_edit_distance": 3,
+      "mic": "off",
+      "duration_s": 2.18
+    },
+    {
+      "file": "yae.m4a",
+      "letter": "ي",
+      "expected": "yaa",
+      "ctc_heard": "yaa",
+      "ctc_conf": 0.9592,
+      "ctc_margin": 4.8027,
+      "ctc_greedy": "ياء",
+      "whisper_text": "yeah",
+      "whisper_matched": "alif",
+      "whisper_edit_distance": 4,
+      "mic": "off",
+      "duration_s": 2.9
+    }
+  ],
+  "confusable_pairs": [
+    [
+      "seen",
+      "saad",
+      "seen",
+      "saad",
+      "BOTH OK"
+    ],
+    [
+      "taa",
+      "Taa",
+      "taa",
+      "Taa",
+      "BOTH OK"
+    ],
+    [
+      "daal",
+      "Daad",
+      "daal",
+      "Daad",
+      "BOTH OK"
+    ],
+    [
+      "dhaal",
+      "DHaa",
+      "dhaal",
+      "DHaa",
+      "BOTH OK"
+    ],
+    [
+      "haa",
+      "Haa",
+      "Haa",
+      "Haa",
+      "COLLAPSED"
+    ],
+    [
+      "kaaf",
+      "qaaf",
+      "kaaf",
+      "qaaf",
+      "BOTH OK"
+    ],
+    [
+      "alif",
+      "ayn",
+      "alif",
+      "ayn",
+      "BOTH OK"
+    ]
+  ],
+  "raw": {
+    "ctc": {
+      "alif.m4a": {
+        "greedy": "ألف",
+        "ranking": [
+          {
+            "letter": "ا",
+            "name": "alif",
+            "score": -4.7293,
+            "conf": 0.9998
+          },
+          {
+            "letter": "ك",
+            "name": "kaaf",
+            "score": -13.994,
+            "conf": 0.0001
+          },
+          {
+            "letter": "ق",
+            "name": "qaaf",
+            "score": -14.2985,
+            "conf": 0.0001
+          },
+          {
+            "letter": "ل",
+            "name": "laam",
+            "score": -19.5367,
+            "conf": 0.0
+          },
+          {
+            "letter": "ف",
+            "name": "faa",
+            "score": -21.1888,
+            "conf": 0.0
+          }
+        ],
+        "margin": 9.2646,
+        "latency_ms": 2261,
+        "duration_s": 2.56,
+        "load_seconds": 2.68
+      },
+      "baa.m4a": {
+        "greedy": "باء",
+        "ranking": [
+          {
+            "letter": "ب",
+            "name": "baa",
+            "score": -4.7048,
+            "conf": 0.9249
+          },
+          {
+            "letter": "ه",
+            "name": "haa",
+            "score": -9.0053,
+            "conf": 0.0125
+          },
+          {
+            "letter": "ف",
+            "name": "faa",
+            "score": -9.0255,
+            "conf": 0.0123
+          },
+          {
+            "letter": "ر",
+            "name": "raa",
+            "score": -9.3172,
+            "conf": 0.0092
+          },
+          {
+            "letter": "ي",
+            "name": "yaa",
+            "score": -9.3395,
+            "conf": 0.009
+          }
+        ],
+        "margin": 4.3005,
+        "latency_ms": 1363,
+        "duration_s": 2.45,
+        "load_seconds": 2.68
+      },
+      "taa.m4a": {
+        "greedy": "تاء",
+        "ranking": [
+          {
+            "letter": "ت",
+            "name": "taa",
+            "score": -4.9965,
+            "conf": 0.9563
+          },
+          {
+            "letter": "ط",
+            "name": "Taa",
+            "score": -9.7696,
+            "conf": 0.0081
+          },
+          {
+            "letter": "ب",
+            "name": "baa",
+            "score": -9.9024,
+            "conf": 0.0071
+          },
+          {
+            "letter": "ف",
+            "name": "faa",
+            "score": -10.0717,
+            "conf": 0.006
+          },
+          {
+            "letter": "ث",
+            "name": "thaa",
+            "score": -10.3635,
+            "conf": 0.0045
+          }
+        ],
+        "margin": 4.7731,
+        "latency_ms": 1590,
+        "duration_s": 2.65,
+        "load_seconds": 2.68
+      },
+      "thaa.m4a": {
+        "greedy": "باء",
+        "ranking": [
+          {
+            "letter": "ب",
+            "name": "baa",
+            "score": -5.0345,
+            "conf": 0.8154
+          },
+          {
+            "letter": "ت",
+            "name": "taa",
+            "score": -8.2191,
+            "conf": 0.0338
+          },
+          {
+            "letter": "ف",
+            "name": "faa",
+            "score": -8.4276,
+            "conf": 0.0274
+          },
+          {
+            "letter": "ر",
+            "name": "raa",
+            "score": -8.7161,
+            "conf": 0.0205
+          },
+          {
+            "letter": "ذ",
+            "name": "dhaal",
+            "score": -8.863,
+            "conf": 0.0177
+          }
+        ],
+        "margin": 3.1846,
+        "latency_ms": 1565,
+        "duration_s": 2.09,
+        "load_seconds": 2.68
+      },
+      "jeem.m4a": {
+        "greedy": "جيم",
+        "ranking": [
+          {
+            "letter": "ج",
+            "name": "jeem",
+            "score": -4.9734,
+            "conf": 0.9934
+          },
+          {
+            "letter": "م",
+            "name": "meem",
+            "score": -10.0382,
+            "conf": 0.0063
+          },
+          {
+            "letter": "غ",
+            "name": "ghayn",
+            "score": -13.894,
+            "conf": 0.0001
+          },
+          {
+            "letter": "ش",
+            "name": "sheen",
+            "score": -14.5578,
+            "conf": 0.0001
+          },
+          {
+            "letter": "ع",
+            "name": "ayn",
+            "score": -14.9254,
+            "conf": 0.0
+          }
+        ],
+        "margin": 5.0648,
+        "latency_ms": 1818,
+        "duration_s": 2.52,
+        "load_seconds": 2.68
+      },
+      "haae.m4a": {
+        "greedy": "حاء",
+        "ranking": [
+          {
+            "letter": "ح",
+            "name": "Haa",
+            "score": -4.6817,
+            "conf": 0.9312
+          },
+          {
+            "letter": "ه",
+            "name": "haa",
+            "score": -8.5322,
+            "conf": 0.0198
+          },
+          {
+            "letter": "ف",
+            "name": "faa",
+            "score": -8.9706,
+            "conf": 0.0128
+          },
+          {
+            "letter": "ر",
+            "name": "raa",
+            "score": -9.3535,
+            "conf": 0.0087
+          },
+          {
+            "letter": "خ",
+            "name": "khaa",
+            "score": -9.5505,
+            "conf": 0.0072
+          }
+        ],
+        "margin": 3.8505,
+        "latency_ms": 1333,
+        "duration_s": 2.28,
+        "load_seconds": 2.68
+      },
+      "khaa.m4a": {
+        "greedy": "خْطَاءَ",
+        "ranking": [
+          {
+            "letter": "ط",
+            "name": "Taa",
+            "score": -12.3867,
+            "conf": 0.6229
+          },
+          {
+            "letter": "خ",
+            "name": "khaa",
+            "score": -13.3955,
+            "conf": 0.2272
+          },
+          {
+            "letter": "ت",
+            "name": "taa",
+            "score": -15.1925,
+            "conf": 0.0377
+          },
+          {
+            "letter": "ف",
+            "name": "faa",
+            "score": -15.3414,
+            "conf": 0.0324
+          },
+          {
+            "letter": "ر",
+            "name": "raa",
+            "score": -15.7866,
+            "conf": 0.0208
+          }
+        ],
+        "margin": 1.0087,
+        "latency_ms": 1085,
+        "duration_s": 1.9,
+        "load_seconds": 2.68
+      },
+      "daal.m4a": {
+        "greedy": "الدَّالُ",
+        "ranking": [
+          {
+            "letter": "د",
+            "name": "daal",
+            "score": -18.7583,
+            "conf": 0.9861
+          },
+          {
+            "letter": "ذ",
+            "name": "dhaal",
+            "score": -23.0661,
+            "conf": 0.0133
+          },
+          {
+            "letter": "ل",
+            "name": "laam",
+            "score": -27.7805,
+            "conf": 0.0001
+          },
+          {
+            "letter": "ز",
+            "name": "zay",
+            "score": -28.0802,
+            "conf": 0.0001
+          },
+          {
+            "letter": "ض",
+            "name": "Daad",
+            "score": -28.3514,
+            "conf": 0.0001
+          }
+        ],
+        "margin": 4.3078,
+        "latency_ms": 1055,
+        "duration_s": 1.79,
+        "load_seconds": 2.68
+      },
+      "thaal.m4a": {
+        "greedy": "ذَالُ",
+        "ranking": [
+          {
+            "letter": "ذ",
+            "name": "dhaal",
+            "score": -10.8782,
+            "conf": 0.9491
+          },
+          {
+            "letter": "د",
+            "name": "daal",
+            "score": -13.8136,
+            "conf": 0.0504
+          },
+          {
+            "letter": "ز",
+            "name": "zay",
+            "score": -19.8032,
+            "conf": 0.0001
+          },
+          {
+            "letter": "ب",
+            "name": "baa",
+            "score": -20.3571,
+            "conf": 0.0001
+          },
+          {
+            "letter": "ل",
+            "name": "laam",
+            "score": -20.6445,
+            "conf": 0.0001
+          }
+        ],
+        "margin": 2.9354,
+        "latency_ms": 1158,
+        "duration_s": 2.09,
+        "load_seconds": 2.68
+      },
+      "raa.m4a": {
+        "greedy": "راء",
+        "ranking": [
+          {
+            "letter": "ر",
+            "name": "raa",
+            "score": -4.9989,
+            "conf": 0.9643
+          },
+          {
+            "letter": "ف",
+            "name": "faa",
+            "score": -9.809,
+            "conf": 0.0079
+          },
+          {
+            "letter": "ب",
+            "name": "baa",
+            "score": -10.4208,
+            "conf": 0.0043
+          },
+          {
+            "letter": "خ",
+            "name": "khaa",
+            "score": -10.5165,
+            "conf": 0.0039
+          },
+          {
+            "letter": "ح",
+            "name": "Haa",
+            "score": -10.618,
+            "conf": 0.0035
+          }
+        ],
+        "margin": 4.8101,
+        "latency_ms": 998,
+        "duration_s": 1.9,
+        "load_seconds": 2.68
+      },
+      "zaae.m4a": {
+        "greedy": "ازدعء",
+        "ranking": [
+          {
+            "letter": "ز",
+            "name": "zay",
+            "score": -16.6819,
+            "conf": 0.7158
+          },
+          {
+            "letter": "د",
+            "name": "daal",
+            "score": -19.204,
+            "conf": 0.0575
+          },
+          {
+            "letter": "ت",
+            "name": "taa",
+            "score": -19.9358,
+            "conf": 0.0276
+          },
+          {
+            "letter": "ص",
+            "name": "saad",
+            "score": -20.0324,
+            "conf": 0.0251
+          },
+          {
+            "letter": "س",
+            "name": "seen",
+            "score": -20.1416,
+            "conf": 0.0225
+          }
+        ],
+        "margin": 2.5221,
+        "latency_ms": 1199,
+        "duration_s": 1.94,
+        "load_seconds": 2.68
+      },
+      "seen.m4a": {
+        "greedy": "سين",
+        "ranking": [
+          {
+            "letter": "س",
+            "name": "seen",
+            "score": -5.0826,
+            "conf": 0.9878
+          },
+          {
+            "letter": "ش",
+            "name": "sheen",
+            "score": -9.8653,
+            "conf": 0.0083
+          },
+          {
+            "letter": "ع",
+            "name": "ayn",
+            "score": -11.0493,
+            "conf": 0.0025
+          },
+          {
+            "letter": "غ",
+            "name": "ghayn",
+            "score": -12.033,
+            "conf": 0.0009
+          },
+          {
+            "letter": "م",
+            "name": "meem",
+            "score": -13.4087,
+            "conf": 0.0002
+          }
+        ],
+        "margin": 4.7827,
+        "latency_ms": 1433,
+        "duration_s": 2.71,
+        "load_seconds": 2.68
+      },
+      "sheen.m4a": {
+        "greedy": "شين",
+        "ranking": [
+          {
+            "letter": "ش",
+            "name": "sheen",
+            "score": -4.9311,
+            "conf": 0.9763
+          },
+          {
+            "letter": "س",
+            "name": "seen",
+            "score": -8.8754,
+            "conf": 0.0189
+          },
+          {
+            "letter": "ع",
+            "name": "ayn",
+            "score": -11.066,
+            "conf": 0.0021
+          },
+          {
+            "letter": "غ",
+            "name": "ghayn",
+            "score": -11.0808,
+            "conf": 0.0021
+          },
+          {
+            "letter": "ج",
+            "name": "jeem",
+            "score": -13.3104,
+            "conf": 0.0002
+          }
+        ],
+        "margin": 3.9443,
+        "latency_ms": 1167,
+        "duration_s": 1.77,
+        "load_seconds": 2.68
+      },
+      "saad.m4a": {
+        "greedy": "صطاد",
+        "ranking": [
+          {
+            "letter": "ص",
+            "name": "saad",
+            "score": -7.0083,
+            "conf": 0.9152
+          },
+          {
+            "letter": "ض",
+            "name": "Daad",
+            "score": -9.7732,
+            "conf": 0.0576
+          },
+          {
+            "letter": "ط",
+            "name": "Taa",
+            "score": -11.0159,
+            "conf": 0.0166
+          },
+          {
+            "letter": "ت",
+            "name": "taa",
+            "score": -13.0757,
+            "conf": 0.0021
+          },
+          {
+            "letter": "ر",
+            "name": "raa",
+            "score": -13.8363,
+            "conf": 0.001
+          }
+        ],
+        "margin": 2.765,
+        "latency_ms": 1408,
+        "duration_s": 2.24,
+        "load_seconds": 2.68
+      },
+      "daad.m4a": {
+        "greedy": "داد",
+        "ranking": [
+          {
+            "letter": "ض",
+            "name": "Daad",
+            "score": -6.6481,
+            "conf": 0.9085
+          },
+          {
+            "letter": "د",
+            "name": "daal",
+            "score": -9.6448,
+            "conf": 0.0454
+          },
+          {
+            "letter": "ص",
+            "name": "saad",
+            "score": -9.8392,
+            "conf": 0.0374
+          },
+          {
+            "letter": "ب",
+            "name": "baa",
+            "score": -13.1492,
+            "conf": 0.0014
+          },
+          {
+            "letter": "ز",
+            "name": "zay",
+            "score": -13.3886,
+            "conf": 0.0011
+          }
+        ],
+        "margin": 2.9967,
+        "latency_ms": 1169,
+        "duration_s": 1.86,
+        "load_seconds": 2.68
+      },
+      "taa'.m4a": {
+        "greedy": "طاء",
+        "ranking": [
+          {
+            "letter": "ط",
+            "name": "Taa",
+            "score": -4.7648,
+            "conf": 0.9473
+          },
+          {
+            "letter": "ظ",
+            "name": "DHaa",
+            "score": -9.4025,
+            "conf": 0.0092
+          },
+          {
+            "letter": "ت",
+            "name": "taa",
+            "score": -9.5631,
+            "conf": 0.0078
+          },
+          {
+            "letter": "ر",
+            "name": "raa",
+            "score": -9.6351,
+            "conf": 0.0073
+          },
+          {
+            "letter": "ح",
+            "name": "Haa",
+            "score": -9.9864,
+            "conf": 0.0051
+          }
+        ],
+        "margin": 4.6377,
+        "latency_ms": 1046,
+        "duration_s": 1.96,
+        "load_seconds": 2.68
+      },
+      "dhaa.m4a": {
+        "greedy": "ضاء",
+        "ranking": [
+          {
+            "letter": "ظ",
+            "name": "DHaa",
+            "score": -7.4079,
+            "conf": 0.404
+          },
+          {
+            "letter": "ب",
+            "name": "baa",
+            "score": -8.0625,
+            "conf": 0.2099
+          },
+          {
+            "letter": "ي",
+            "name": "yaa",
+            "score": -8.8676,
+            "conf": 0.0938
+          },
+          {
+            "letter": "ر",
+            "name": "raa",
+            "score": -9.145,
+            "conf": 0.0711
+          },
+          {
+            "letter": "ه",
+            "name": "haa",
+            "score": -9.7185,
+            "conf": 0.0401
+          }
+        ],
+        "margin": 0.6546,
+        "latency_ms": 1078,
+        "duration_s": 1.71,
+        "load_seconds": 2.68
+      },
+      "ayn.m4a": {
+        "greedy": "عين",
+        "ranking": [
+          {
+            "letter": "ع",
+            "name": "ayn",
+            "score": -4.8904,
+            "conf": 0.9879
+          },
+          {
+            "letter": "غ",
+            "name": "ghayn",
+            "score": -9.8415,
+            "conf": 0.007
+          },
+          {
+            "letter": "س",
+            "name": "seen",
+            "score": -10.9053,
+            "conf": 0.0024
+          },
+          {
+            "letter": "ش",
+            "name": "sheen",
+            "score": -10.9298,
+            "conf": 0.0024
+          },
+          {
+            "letter": "ن",
+            "name": "noon",
+            "score": -13.2137,
+            "conf": 0.0002
+          }
+        ],
+        "margin": 4.9511,
+        "latency_ms": 1431,
+        "duration_s": 2.94,
+        "load_seconds": 2.68
+      },
+      "ghayn.m4a": {
+        "greedy": "إضبعين",
+        "ranking": [
+          {
+            "letter": "ع",
+            "name": "ayn",
+            "score": -13.1649,
+            "conf": 0.9806
+          },
+          {
+            "letter": "غ",
+            "name": "ghayn",
+            "score": -17.8146,
+            "conf": 0.0094
+          },
+          {
+            "letter": "س",
+            "name": "seen",
+            "score": -18.3345,
+            "conf": 0.0056
+          },
+          {
+            "letter": "ش",
+            "name": "sheen",
+            "score": -18.7828,
+            "conf": 0.0036
+          },
+          {
+            "letter": "م",
+            "name": "meem",
+            "score": -20.4531,
+            "conf": 0.0007
+          }
+        ],
+        "margin": 4.6497,
+        "latency_ms": 1517,
+        "duration_s": 2.09,
+        "load_seconds": 2.68
+      },
+      "meem.m4a": {
+        "greedy": "م",
+        "ranking": [
+          {
+            "letter": "م",
+            "name": "meem",
+            "score": -5.8054,
+            "conf": 0.9831
+          },
+          {
+            "letter": "س",
+            "name": "seen",
+            "score": -11.1943,
+            "conf": 0.0045
+          },
+          {
+            "letter": "ع",
+            "name": "ayn",
+            "score": -11.1973,
+            "conf": 0.0045
+          },
+          {
+            "letter": "ج",
+            "name": "jeem",
+            "score": -11.6129,
+            "conf": 0.003
+          },
+          {
+            "letter": "ش",
+            "name": "sheen",
+            "score": -12.0176,
+            "conf": 0.002
+          }
+        ],
+        "margin": 5.3889,
+        "latency_ms": 1856,
+        "duration_s": 2.65,
+        "load_seconds": 2.68
+      },
+      "faa.m4a": {
+        "greedy": "فاء",
+        "ranking": [
+          {
+            "letter": "ف",
+            "name": "faa",
+            "score": -5.0732,
+            "conf": 0.9481
+          },
+          {
+            "letter": "ب",
+            "name": "baa",
+            "score": -9.1363,
+            "conf": 0.0163
+          },
+          {
+            "letter": "خ",
+            "name": "khaa",
+            "score": -9.8817,
+            "conf": 0.0077
+          },
+          {
+            "letter": "ر",
+            "name": "raa",
+            "score": -10.2069,
+            "conf": 0.0056
+          },
+          {
+            "letter": "ث",
+            "name": "thaa",
+            "score": -10.2604,
+            "conf": 0.0053
+          }
+        ],
+        "margin": 4.0631,
+        "latency_ms": 1634,
+        "duration_s": 2.52,
+        "load_seconds": 2.68
+      },
+      "qaaf.m4a": {
+        "greedy": "قاف",
+        "ranking": [
+          {
+            "letter": "ق",
+            "name": "qaaf",
+            "score": -4.8757,
+            "conf": 0.9941
+          },
+          {
+            "letter": "ك",
+            "name": "kaaf",
+            "score": -10.1224,
+            "conf": 0.0052
+          },
+          {
+            "letter": "ط",
+            "name": "Taa",
+            "score": -14.3383,
+            "conf": 0.0001
+          },
+          {
+            "letter": "و",
+            "name": "waw",
+            "score": -14.4539,
+            "conf": 0.0001
+          },
+          {
+            "letter": "خ",
+            "name": "khaa",
+            "score": -14.5347,
+            "conf": 0.0001
+          }
+        ],
+        "margin": 5.2467,
+        "latency_ms": 1516,
+        "duration_s": 2.6,
+        "load_seconds": 2.68
+      },
+      "kaef.m4a": {
+        "greedy": "كاف",
+        "ranking": [
+          {
+            "letter": "ك",
+            "name": "kaaf",
+            "score": -4.9392,
+            "conf": 0.9929
+          },
+          {
+            "letter": "ق",
+            "name": "qaaf",
+            "score": -10.0,
+            "conf": 0.0063
+          },
+          {
+            "letter": "ل",
+            "name": "laam",
+            "score": -14.0966,
+            "conf": 0.0001
+          },
+          {
+            "letter": "خ",
+            "name": "khaa",
+            "score": -14.3731,
+            "conf": 0.0001
+          },
+          {
+            "letter": "ح",
+            "name": "Haa",
+            "score": -14.458,
+            "conf": 0.0001
+          }
+        ],
+        "margin": 5.0608,
+        "latency_ms": 1486,
+        "duration_s": 2.79,
+        "load_seconds": 2.68
+      },
+      "laam.m4a": {
+        "greedy": "لام",
+        "ranking": [
+          {
+            "letter": "ل",
+            "name": "laam",
+            "score": -5.1275,
+            "conf": 0.9999
+          },
+          {
+            "letter": "م",
+            "name": "meem",
+            "score": -14.9979,
+            "conf": 0.0001
+          },
+          {
+            "letter": "ج",
+            "name": "jeem",
+            "score": -16.1307,
+            "conf": 0.0
+          },
+          {
+            "letter": "ز",
+            "name": "zay",
+            "score": -17.0027,
+            "conf": 0.0
+          },
+          {
+            "letter": "د",
+            "name": "daal",
+            "score": -17.3641,
+            "conf": 0.0
+          }
+        ],
+        "margin": 9.8704,
+        "latency_ms": 1283,
+        "duration_s": 2.13,
+        "load_seconds": 2.68
+      },
+      "noon.m4a": {
+        "greedy": "نون",
+        "ranking": [
+          {
+            "letter": "ن",
+            "name": "noon",
+            "score": -5.3017,
+            "conf": 0.9998
+          },
+          {
+            "letter": "س",
+            "name": "seen",
+            "score": -15.0313,
+            "conf": 0.0001
+          },
+          {
+            "letter": "ع",
+            "name": "ayn",
+            "score": -15.2543,
+            "conf": 0.0
+          },
+          {
+            "letter": "ش",
+            "name": "sheen",
+            "score": -15.3829,
+            "conf": 0.0
+          },
+          {
+            "letter": "غ",
+            "name": "ghayn",
+            "score": -15.4496,
+            "conf": 0.0
+          }
+        ],
+        "margin": 9.7295,
+        "latency_ms": 1177,
+        "duration_s": 2.18,
+        "load_seconds": 2.68
+      },
+      "haa.m4a": {
+        "greedy": "حاء",
+        "ranking": [
+          {
+            "letter": "ح",
+            "name": "Haa",
+            "score": -4.8514,
+            "conf": 0.8577
+          },
+          {
+            "letter": "ه",
+            "name": "haa",
+            "score": -7.294,
+            "conf": 0.0746
+          },
+          {
+            "letter": "ف",
+            "name": "faa",
+            "score": -8.7135,
+            "conf": 0.018
+          },
+          {
+            "letter": "خ",
+            "name": "khaa",
+            "score": -9.1498,
+            "conf": 0.0117
+          },
+          {
+            "letter": "ب",
+            "name": "baa",
+            "score": -9.3587,
+            "conf": 0.0095
+          }
+        ],
+        "margin": 2.4426,
+        "latency_ms": 1223,
+        "duration_s": 2.09,
+        "load_seconds": 2.68
+      },
+      "waw.m4a": {
+        "greedy": "فواو",
+        "ranking": [
+          {
+            "letter": "و",
+            "name": "waw",
+            "score": -8.0124,
+            "conf": 0.9598
+          },
+          {
+            "letter": "ف",
+            "name": "faa",
+            "score": -11.8045,
+            "conf": 0.0216
+          },
+          {
+            "letter": "ت",
+            "name": "taa",
+            "score": -13.3775,
+            "conf": 0.0045
+          },
+          {
+            "letter": "ث",
+            "name": "thaa",
+            "score": -14.111,
+            "conf": 0.0022
+          },
+          {
+            "letter": "ب",
+            "name": "baa",
+            "score": -14.3098,
+            "conf": 0.0018
+          }
+        ],
+        "margin": 3.7921,
+        "latency_ms": 1317,
+        "duration_s": 2.18,
+        "load_seconds": 2.68
+      },
+      "yae.m4a": {
+        "greedy": "ياء",
+        "ranking": [
+          {
+            "letter": "ي",
+            "name": "yaa",
+            "score": -4.9467,
+            "conf": 0.9592
+          },
+          {
+            "letter": "ر",
+            "name": "raa",
+            "score": -9.7495,
+            "conf": 0.0079
+          },
+          {
+            "letter": "ب",
+            "name": "baa",
+            "score": -9.9033,
+            "conf": 0.0068
+          },
+          {
+            "letter": "ه",
+            "name": "haa",
+            "score": -10.0663,
+            "conf": 0.0057
+          },
+          {
+            "letter": "ح",
+            "name": "Haa",
+            "score": -10.0814,
+            "conf": 0.0056
+          }
+        ],
+        "margin": 4.8027,
+        "latency_ms": 2021,
+        "duration_s": 2.9,
+        "load_seconds": 2.68
+      },
+      "silence.m4a": {
+        "greedy": "إنمكيملل",
+        "ranking": [
+          {
+            "letter": "ك",
+            "name": "kaaf",
+            "score": -13.4212,
+            "conf": 0.1324
+          },
+          {
+            "letter": "م",
+            "name": "meem",
+            "score": -13.6505,
+            "conf": 0.1053
+          },
+          {
+            "letter": "ا",
+            "name": "alif",
+            "score": -13.8595,
+            "conf": 0.0854
+          },
+          {
+            "letter": "ل",
+            "name": "laam",
+            "score": -13.9947,
+            "conf": 0.0746
+          },
+          {
+            "letter": "ج",
+            "name": "jeem",
+            "score": -14.0615,
+            "conf": 0.0698
+          }
+        ],
+        "margin": 0.2293,
+        "latency_ms": 1939,
+        "duration_s": 3.14,
+        "load_seconds": 2.68
+      },
+      "cough.m4a": {
+        "greedy": "حبهم",
+        "ranking": [
+          {
+            "letter": "ح",
+            "name": "Haa",
+            "score": -14.0577,
+            "conf": 0.4634
+          },
+          {
+            "letter": "ج",
+            "name": "jeem",
+            "score": -15.0905,
+            "conf": 0.165
+          },
+          {
+            "letter": "ب",
+            "name": "baa",
+            "score": -15.2719,
+            "conf": 0.1376
+          },
+          {
+            "letter": "ل",
+            "name": "laam",
+            "score": -15.9045,
+            "conf": 0.0731
+          },
+          {
+            "letter": "م",
+            "name": "meem",
+            "score": -16.3899,
+            "conf": 0.045
+          }
+        ],
+        "margin": 1.0328,
+        "latency_ms": 1716,
+        "duration_s": 2.47,
+        "load_seconds": 2.68
+      },
+      "sentence.m4a": {
+        "greedy": "هلو حويّ",
+        "ranking": [
+          {
+            "letter": "و",
+            "name": "waw",
+            "score": -38.5723,
+            "conf": 0.8611
+          },
+          {
+            "letter": "ا",
+            "name": "alif",
+            "score": -41.7785,
+            "conf": 0.0349
+          },
+          {
+            "letter": "ن",
+            "name": "noon",
+            "score": -42.4813,
+            "conf": 0.0173
+          },
+          {
+            "letter": "ل",
+            "name": "laam",
+            "score": -42.7942,
+            "conf": 0.0126
+          },
+          {
+            "letter": "ج",
+            "name": "jeem",
+            "score": -42.8197,
+            "conf": 0.0123
+          }
+        ],
+        "margin": 3.2063,
+        "latency_ms": 1802,
+        "duration_s": 3.22,
+        "load_seconds": 2.68
+      }
+    },
+    "whisper": {
+      "alif.m4a": {
+        "text": "ألف",
+        "latency_ms": 6325,
+        "duration_s": 2.56,
+        "load_seconds": 1.57
+      },
+      "baa.m4a": {
+        "text": "بات",
+        "latency_ms": 2778,
+        "duration_s": 2.45,
+        "load_seconds": 1.57
+      },
+      "taa.m4a": {
+        "text": "تأ",
+        "latency_ms": 2805,
+        "duration_s": 2.65,
+        "load_seconds": 1.57
+      },
+      "thaa.m4a": {
+        "text": "بأ",
+        "latency_ms": 2775,
+        "duration_s": 2.09,
+        "load_seconds": 1.57
+      },
+      "jeem.m4a": {
+        "text": "جيم",
+        "latency_ms": 2783,
+        "duration_s": 2.52,
+        "load_seconds": 1.57
+      },
+      "haae.m4a": {
+        "text": "ها",
+        "latency_ms": 2792,
+        "duration_s": 2.28,
+        "load_seconds": 1.57
+      },
+      "khaa.m4a": {
+        "text": "اع",
+        "latency_ms": 2785,
+        "duration_s": 1.9,
+        "load_seconds": 1.57
+      },
+      "daal.m4a": {
+        "text": "دان",
+        "latency_ms": 2803,
+        "duration_s": 1.79,
+        "load_seconds": 1.57
+      },
+      "thaal.m4a": {
+        "text": "ذال",
+        "latency_ms": 2861,
+        "duration_s": 2.09,
+        "load_seconds": 1.57
+      },
+      "raa.m4a": {
+        "text": "رأى",
+        "latency_ms": 2743,
+        "duration_s": 1.9,
+        "load_seconds": 1.57
+      },
+      "zaae.m4a": {
+        "text": "زيب",
+        "latency_ms": 2748,
+        "duration_s": 1.94,
+        "load_seconds": 1.57
+      },
+      "seen.m4a": {
+        "text": "سين",
+        "latency_ms": 2646,
+        "duration_s": 2.71,
+        "load_seconds": 1.57
+      },
+      "sheen.m4a": {
+        "text": "شين",
+        "latency_ms": 2649,
+        "duration_s": 1.77,
+        "load_seconds": 1.57
+      },
+      "saad.m4a": {
+        "text": "ساد",
+        "latency_ms": 2767,
+        "duration_s": 2.24,
+        "load_seconds": 1.57
+      },
+      "daad.m4a": {
+        "text": "داد",
+        "latency_ms": 2793,
+        "duration_s": 1.86,
+        "load_seconds": 1.57
+      },
+      "taa'.m4a": {
+        "text": "باق",
+        "latency_ms": 2958,
+        "duration_s": 1.96,
+        "load_seconds": 1.57
+      },
+      "dhaa.m4a": {
+        "text": "و",
+        "latency_ms": 2796,
+        "duration_s": 1.71,
+        "load_seconds": 1.57
+      },
+      "ayn.m4a": {
+        "text": "اين",
+        "latency_ms": 3084,
+        "duration_s": 2.94,
+        "load_seconds": 1.57
+      },
+      "ghayn.m4a": {
+        "text": "وضعين",
+        "latency_ms": 3586,
+        "duration_s": 2.09,
+        "load_seconds": 1.57
+      },
+      "meem.m4a": {
+        "text": "ميم",
+        "latency_ms": 2931,
+        "duration_s": 2.65,
+        "load_seconds": 1.57
+      },
+      "faa.m4a": {
+        "text": "فأ",
+        "latency_ms": 2920,
+        "duration_s": 2.52,
+        "load_seconds": 1.57
+      },
+      "qaaf.m4a": {
+        "text": "قاف",
+        "latency_ms": 2811,
+        "duration_s": 2.6,
+        "load_seconds": 1.57
+      },
+      "kaef.m4a": {
+        "text": "كيف",
+        "latency_ms": 2833,
+        "duration_s": 2.79,
+        "load_seconds": 1.57
+      },
+      "laam.m4a": {
+        "text": "لام",
+        "latency_ms": 2877,
+        "duration_s": 2.13,
+        "load_seconds": 1.57
+      },
+      "noon.m4a": {
+        "text": "نون",
+        "latency_ms": 2773,
+        "duration_s": 2.18,
+        "load_seconds": 1.57
+      },
+      "haa.m4a": {
+        "text": "ها",
+        "latency_ms": 2784,
+        "duration_s": 2.09,
+        "load_seconds": 1.57
+      },
+      "waw.m4a": {
+        "text": "wow",
+        "latency_ms": 2725,
+        "duration_s": 2.18,
+        "load_seconds": 1.57
+      },
+      "yae.m4a": {
+        "text": "yeah",
+        "latency_ms": 2696,
+        "duration_s": 2.9,
+        "load_seconds": 1.57
+      },
+      "silence.m4a": {
+        "text": "سنقوم بعمل",
+        "latency_ms": 3098,
+        "duration_s": 3.14,
+        "load_seconds": 1.57
+      },
+      "cough.m4a": {
+        "text": "اههه",
+        "latency_ms": 2852,
+        "duration_s": 2.47,
+        "load_seconds": 1.57
+      },
+      "sentence.m4a": {
+        "text": "مرحبا، كيف تفعل؟",
+        "latency_ms": 3383,
+        "duration_s": 3.22,
+        "load_seconds": 1.57
+      }
+    }
+  }
+}
