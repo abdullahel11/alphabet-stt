@@ -1,0 +1,1187 @@
+{
+  "endpoint": "https://abdullahel11--alphabet-stt-checker-web.modal.run",
+  "clean_letters": {
+    "correct": 23,
+    "incorrect": 3,
+    "unclear": 2,
+    "total": 28
+  },
+  "mispronunciations": {
+    "caught": 6,
+    "total": 9
+  },
+  "wrong_letter": {
+    "caught": 5,
+    "total": 6
+  },
+  "unclear": {
+    "caught": 3,
+    "total": 3
+  },
+  "latency_ms": {
+    "median": 1587.0,
+    "max": 1773
+  },
+  "raw": {
+    "alif.m4a": {
+      "verdict": "correct",
+      "heard": "ا",
+      "heard_name": "alif",
+      "expected": "ا",
+      "confidence": 1.0,
+      "reason": null,
+      "top3": [
+        {
+          "letter": "ا",
+          "name": "alif",
+          "score": -4.73
+        },
+        {
+          "letter": "ك",
+          "name": "kaaf",
+          "score": -13.99
+        },
+        {
+          "letter": "ق",
+          "name": "qaaf",
+          "score": -14.3
+        }
+      ],
+      "margin": 9.26,
+      "duration_s": 2.56,
+      "latency_ms": 1023,
+      "round_trip_ms": 1555
+    },
+    "baa.m4a": {
+      "verdict": "correct",
+      "heard": "ب",
+      "heard_name": "baa",
+      "expected": "ب",
+      "confidence": 0.925,
+      "reason": null,
+      "top3": [
+        {
+          "letter": "ب",
+          "name": "baa",
+          "score": -4.7
+        },
+        {
+          "letter": "ه",
+          "name": "haa",
+          "score": -9.01
+        },
+        {
+          "letter": "ف",
+          "name": "faa",
+          "score": -9.03
+        }
+      ],
+      "margin": 4.3,
+      "duration_s": 2.45,
+      "latency_ms": 1025,
+      "round_trip_ms": 1587
+    },
+    "taa.m4a": {
+      "verdict": "correct",
+      "heard": "ت",
+      "heard_name": "taa",
+      "expected": "ت",
+      "confidence": 0.956,
+      "reason": null,
+      "top3": [
+        {
+          "letter": "ت",
+          "name": "taa",
+          "score": -5.0
+        },
+        {
+          "letter": "ط",
+          "name": "Taa",
+          "score": -9.77
+        },
+        {
+          "letter": "ب",
+          "name": "baa",
+          "score": -9.9
+        }
+      ],
+      "margin": 4.77,
+      "duration_s": 2.65,
+      "latency_ms": 1030,
+      "round_trip_ms": 1599
+    },
+    "thaa.m4a": {
+      "verdict": "incorrect",
+      "heard": "ب",
+      "heard_name": "baa",
+      "expected": "ث",
+      "confidence": 0.815,
+      "reason": null,
+      "top3": [
+        {
+          "letter": "ب",
+          "name": "baa",
+          "score": -5.03
+        },
+        {
+          "letter": "ت",
+          "name": "taa",
+          "score": -8.22
+        },
+        {
+          "letter": "ف",
+          "name": "faa",
+          "score": -8.43
+        }
+      ],
+      "margin": 3.18,
+      "duration_s": 2.09,
+      "latency_ms": 935,
+      "round_trip_ms": 1486
+    },
+    "jeem.m4a": {
+      "verdict": "correct",
+      "heard": "ج",
+      "heard_name": "jeem",
+      "expected": "ج",
+      "confidence": 0.993,
+      "reason": null,
+      "top3": [
+        {
+          "letter": "ج",
+          "name": "jeem",
+          "score": -4.97
+        },
+        {
+          "letter": "م",
+          "name": "meem",
+          "score": -10.04
+        },
+        {
+          "letter": "غ",
+          "name": "ghayn",
+          "score": -13.89
+        }
+      ],
+      "margin": 5.06,
+      "duration_s": 2.52,
+      "latency_ms": 1059,
+      "round_trip_ms": 1703
+    },
+    "haae.m4a": {
+      "verdict": "correct",
+      "heard": "ح",
+      "heard_name": "Haa",
+      "expected": "ح",
+      "confidence": 0.931,
+      "reason": null,
+      "top3": [
+        {
+          "letter": "ح",
+          "name": "Haa",
+          "score": -4.68
+        },
+        {
+          "letter": "ه",
+          "name": "haa",
+          "score": -8.53
+        },
+        {
+          "letter": "ف",
+          "name": "faa",
+          "score": -8.97
+        }
+      ],
+      "margin": 3.85,
+      "duration_s": 2.28,
+      "latency_ms": 952,
+      "round_trip_ms": 1485
+    },
+    "khaa.m4a": {
+      "verdict": "unclear",
+      "heard": null,
+      "heard_name": null,
+      "expected": "خ",
+      "confidence": 0.623,
+      "reason": "could not tell between the closest letters",
+      "top3": [
+        {
+          "letter": "ط",
+          "name": "Taa",
+          "score": -12.39
+        },
+        {
+          "letter": "خ",
+          "name": "khaa",
+          "score": -13.4
+        },
+        {
+          "letter": "ت",
+          "name": "taa",
+          "score": -15.19
+        }
+      ],
+      "margin": 1.01,
+      "duration_s": 1.9,
+      "latency_ms": 960,
+      "round_trip_ms": 1490
+    },
+    "daal.m4a": {
+      "verdict": "correct",
+      "heard": "د",
+      "heard_name": "daal",
+      "expected": "د",
+      "confidence": 0.986,
+      "reason": null,
+      "top3": [
+        {
+          "letter": "د",
+          "name": "daal",
+          "score": -18.76
+        },
+        {
+          "letter": "ذ",
+          "name": "dhaal",
+          "score": -23.07
+        },
+        {
+          "letter": "ل",
+          "name": "laam",
+          "score": -27.78
+        }
+      ],
+      "margin": 4.31,
+      "duration_s": 1.79,
+      "latency_ms": 912,
+      "round_trip_ms": 1446
+    },
+    "thaal.m4a": {
+      "verdict": "correct",
+      "heard": "ذ",
+      "heard_name": "dhaal",
+      "expected": "ذ",
+      "confidence": 0.949,
+      "reason": null,
+      "top3": [
+        {
+          "letter": "ذ",
+          "name": "dhaal",
+          "score": -10.88
+        },
+        {
+          "letter": "د",
+          "name": "daal",
+          "score": -13.81
+        },
+        {
+          "letter": "ز",
+          "name": "zay",
+          "score": -19.8
+        }
+      ],
+      "margin": 2.94,
+      "duration_s": 2.09,
+      "latency_ms": 958,
+      "round_trip_ms": 1495
+    },
+    "raa.m4a": {
+      "verdict": "correct",
+      "heard": "ر",
+      "heard_name": "raa",
+      "expected": "ر",
+      "confidence": 0.964,
+      "reason": null,
+      "top3": [
+        {
+          "letter": "ر",
+          "name": "raa",
+          "score": -5.0
+        },
+        {
+          "letter": "ف",
+          "name": "faa",
+          "score": -9.81
+        },
+        {
+          "letter": "ب",
+          "name": "baa",
+          "score": -10.42
+        }
+      ],
+      "margin": 4.81,
+      "duration_s": 1.9,
+      "latency_ms": 966,
+      "round_trip_ms": 1503
+    },
+    "zaae.m4a": {
+      "verdict": "correct",
+      "heard": "ز",
+      "heard_name": "zay",
+      "expected": "ز",
+      "confidence": 0.716,
+      "reason": null,
+      "top3": [
+        {
+          "letter": "ز",
+          "name": "zay",
+          "score": -16.68
+        },
+        {
+          "letter": "د",
+          "name": "daal",
+          "score": -19.2
+        },
+        {
+          "letter": "ت",
+          "name": "taa",
+          "score": -19.94
+        }
+      ],
+      "margin": 2.52,
+      "duration_s": 1.94,
+      "latency_ms": 951,
+      "round_trip_ms": 1483
+    },
+    "seen.m4a": {
+      "verdict": "correct",
+      "heard": "س",
+      "heard_name": "seen",
+      "expected": "س",
+      "confidence": 0.988,
+      "reason": null,
+      "top3": [
+        {
+          "letter": "س",
+          "name": "seen",
+          "score": -5.08
+        },
+        {
+          "letter": "ش",
+          "name": "sheen",
+          "score": -9.87
+        },
+        {
+          "letter": "ع",
+          "name": "ayn",
+          "score": -11.05
+        }
+      ],
+      "margin": 4.78,
+      "duration_s": 2.71,
+      "latency_ms": 1090,
+      "round_trip_ms": 1633
+    },
+    "sheen.m4a": {
+      "verdict": "correct",
+      "heard": "ش",
+      "heard_name": "sheen",
+      "expected": "ش",
+      "confidence": 0.976,
+      "reason": null,
+      "top3": [
+        {
+          "letter": "ش",
+          "name": "sheen",
+          "score": -4.93
+        },
+        {
+          "letter": "س",
+          "name": "seen",
+          "score": -8.88
+        },
+        {
+          "letter": "ع",
+          "name": "ayn",
+          "score": -11.07
+        }
+      ],
+      "margin": 3.94,
+      "duration_s": 1.77,
+      "latency_ms": 928,
+      "round_trip_ms": 1707
+    },
+    "saad.m4a": {
+      "verdict": "correct",
+      "heard": "ص",
+      "heard_name": "saad",
+      "expected": "ص",
+      "confidence": 0.915,
+      "reason": null,
+      "top3": [
+        {
+          "letter": "ص",
+          "name": "saad",
+          "score": -7.01
+        },
+        {
+          "letter": "ض",
+          "name": "Daad",
+          "score": -9.77
+        },
+        {
+          "letter": "ط",
+          "name": "Taa",
+          "score": -11.02
+        }
+      ],
+      "margin": 2.76,
+      "duration_s": 2.24,
+      "latency_ms": 1159,
+      "round_trip_ms": 1773
+    },
+    "daad.m4a": {
+      "verdict": "correct",
+      "heard": "ض",
+      "heard_name": "Daad",
+      "expected": "ض",
+      "confidence": 0.909,
+      "reason": null,
+      "top3": [
+        {
+          "letter": "ض",
+          "name": "Daad",
+          "score": -6.65
+        },
+        {
+          "letter": "د",
+          "name": "daal",
+          "score": -9.64
+        },
+        {
+          "letter": "ص",
+          "name": "saad",
+          "score": -9.84
+        }
+      ],
+      "margin": 3.0,
+      "duration_s": 1.86,
+      "latency_ms": 937,
+      "round_trip_ms": 1476
+    },
+    "taa'.m4a": {
+      "verdict": "correct",
+      "heard": "ط",
+      "heard_name": "Taa",
+      "expected": "ط",
+      "confidence": 0.947,
+      "reason": null,
+      "top3": [
+        {
+          "letter": "ط",
+          "name": "Taa",
+          "score": -4.76
+        },
+        {
+          "letter": "ظ",
+          "name": "DHaa",
+          "score": -9.4
+        },
+        {
+          "letter": "ت",
+          "name": "taa",
+          "score": -9.56
+        }
+      ],
+      "margin": 4.64,
+      "duration_s": 1.96,
+      "latency_ms": 929,
+      "round_trip_ms": 1462
+    },
+    "dhaa.m4a": {
+      "verdict": "unclear",
+      "heard": null,
+      "heard_name": null,
+      "expected": "ظ",
+      "confidence": 0.404,
+      "reason": "could not tell between the closest letters",
+      "top3": [
+        {
+          "letter": "ظ",
+          "name": "DHaa",
+          "score": -7.41
+        },
+        {
+          "letter": "ب",
+          "name": "baa",
+          "score": -8.06
+        },
+        {
+          "letter": "ي",
+          "name": "yaa",
+          "score": -8.87
+        }
+      ],
+      "margin": 0.65,
+      "duration_s": 1.71,
+      "latency_ms": 911,
+      "round_trip_ms": 1464
+    },
+    "ayn.m4a": {
+      "verdict": "correct",
+      "heard": "ع",
+      "heard_name": "ayn",
+      "expected": "ع",
+      "confidence": 0.988,
+      "reason": null,
+      "top3": [
+        {
+          "letter": "ع",
+          "name": "ayn",
+          "score": -4.89
+        },
+        {
+          "letter": "غ",
+          "name": "ghayn",
+          "score": -9.84
+        },
+        {
+          "letter": "س",
+          "name": "seen",
+          "score": -10.91
+        }
+      ],
+      "margin": 4.95,
+      "duration_s": 2.94,
+      "latency_ms": 1159,
+      "round_trip_ms": 1733
+    },
+    "ghayn.m4a": {
+      "verdict": "incorrect",
+      "heard": "ع",
+      "heard_name": "ayn",
+      "expected": "غ",
+      "confidence": 0.981,
+      "reason": null,
+      "top3": [
+        {
+          "letter": "ع",
+          "name": "ayn",
+          "score": -13.16
+        },
+        {
+          "letter": "غ",
+          "name": "ghayn",
+          "score": -17.81
+        },
+        {
+          "letter": "س",
+          "name": "seen",
+          "score": -18.33
+        }
+      ],
+      "margin": 4.65,
+      "duration_s": 2.09,
+      "latency_ms": 1018,
+      "round_trip_ms": 1558
+    },
+    "meem.m4a": {
+      "verdict": "correct",
+      "heard": "م",
+      "heard_name": "meem",
+      "expected": "م",
+      "confidence": 0.983,
+      "reason": null,
+      "top3": [
+        {
+          "letter": "م",
+          "name": "meem",
+          "score": -5.81
+        },
+        {
+          "letter": "س",
+          "name": "seen",
+          "score": -11.19
+        },
+        {
+          "letter": "ع",
+          "name": "ayn",
+          "score": -11.2
+        }
+      ],
+      "margin": 5.39,
+      "duration_s": 2.65,
+      "latency_ms": 1132,
+      "round_trip_ms": 1715
+    },
+    "faa.m4a": {
+      "verdict": "correct",
+      "heard": "ف",
+      "heard_name": "faa",
+      "expected": "ف",
+      "confidence": 0.948,
+      "reason": null,
+      "top3": [
+        {
+          "letter": "ف",
+          "name": "faa",
+          "score": -5.07
+        },
+        {
+          "letter": "ب",
+          "name": "baa",
+          "score": -9.14
+        },
+        {
+          "letter": "خ",
+          "name": "khaa",
+          "score": -9.88
+        }
+      ],
+      "margin": 4.06,
+      "duration_s": 2.52,
+      "latency_ms": 1148,
+      "round_trip_ms": 1741
+    },
+    "qaaf.m4a": {
+      "verdict": "correct",
+      "heard": "ق",
+      "heard_name": "qaaf",
+      "expected": "ق",
+      "confidence": 0.994,
+      "reason": null,
+      "top3": [
+        {
+          "letter": "ق",
+          "name": "qaaf",
+          "score": -4.88
+        },
+        {
+          "letter": "ك",
+          "name": "kaaf",
+          "score": -10.12
+        },
+        {
+          "letter": "ط",
+          "name": "Taa",
+          "score": -14.34
+        }
+      ],
+      "margin": 5.25,
+      "duration_s": 2.6,
+      "latency_ms": 1128,
+      "round_trip_ms": 1671
+    },
+    "kaef.m4a": {
+      "verdict": "correct",
+      "heard": "ك",
+      "heard_name": "kaaf",
+      "expected": "ك",
+      "confidence": 0.993,
+      "reason": null,
+      "top3": [
+        {
+          "letter": "ك",
+          "name": "kaaf",
+          "score": -4.94
+        },
+        {
+          "letter": "ق",
+          "name": "qaaf",
+          "score": -10.0
+        },
+        {
+          "letter": "ل",
+          "name": "laam",
+          "score": -14.1
+        }
+      ],
+      "margin": 5.06,
+      "duration_s": 2.79,
+      "latency_ms": 1113,
+      "round_trip_ms": 1651
+    },
+    "laam.m4a": {
+      "verdict": "correct",
+      "heard": "ل",
+      "heard_name": "laam",
+      "expected": "ل",
+      "confidence": 1.0,
+      "reason": null,
+      "top3": [
+        {
+          "letter": "ل",
+          "name": "laam",
+          "score": -5.13
+        },
+        {
+          "letter": "م",
+          "name": "meem",
+          "score": -15.0
+        },
+        {
+          "letter": "ج",
+          "name": "jeem",
+          "score": -16.13
+        }
+      ],
+      "margin": 9.87,
+      "duration_s": 2.13,
+      "latency_ms": 1042,
+      "round_trip_ms": 1592
+    },
+    "noon.m4a": {
+      "verdict": "correct",
+      "heard": "ن",
+      "heard_name": "noon",
+      "expected": "ن",
+      "confidence": 1.0,
+      "reason": null,
+      "top3": [
+        {
+          "letter": "ن",
+          "name": "noon",
+          "score": -5.3
+        },
+        {
+          "letter": "س",
+          "name": "seen",
+          "score": -15.03
+        },
+        {
+          "letter": "ع",
+          "name": "ayn",
+          "score": -15.25
+        }
+      ],
+      "margin": 9.73,
+      "duration_s": 2.18,
+      "latency_ms": 1035,
+      "round_trip_ms": 1593
+    },
+    "haa.m4a": {
+      "verdict": "incorrect",
+      "heard": "ح",
+      "heard_name": "Haa",
+      "expected": "ه",
+      "confidence": 0.858,
+      "reason": null,
+      "top3": [
+        {
+          "letter": "ح",
+          "name": "Haa",
+          "score": -4.85
+        },
+        {
+          "letter": "ه",
+          "name": "haa",
+          "score": -7.29
+        },
+        {
+          "letter": "ف",
+          "name": "faa",
+          "score": -8.71
+        }
+      ],
+      "margin": 2.44,
+      "duration_s": 2.09,
+      "latency_ms": 1063,
+      "round_trip_ms": 1594
+    },
+    "waw.m4a": {
+      "verdict": "correct",
+      "heard": "و",
+      "heard_name": "waw",
+      "expected": "و",
+      "confidence": 0.96,
+      "reason": null,
+      "top3": [
+        {
+          "letter": "و",
+          "name": "waw",
+          "score": -8.01
+        },
+        {
+          "letter": "ف",
+          "name": "faa",
+          "score": -11.8
+        },
+        {
+          "letter": "ت",
+          "name": "taa",
+          "score": -13.38
+        }
+      ],
+      "margin": 3.79,
+      "duration_s": 2.18,
+      "latency_ms": 1042,
+      "round_trip_ms": 1582
+    },
+    "yae.m4a": {
+      "verdict": "correct",
+      "heard": "ي",
+      "heard_name": "yaa",
+      "expected": "ي",
+      "confidence": 0.959,
+      "reason": null,
+      "top3": [
+        {
+          "letter": "ي",
+          "name": "yaa",
+          "score": -4.95
+        },
+        {
+          "letter": "ر",
+          "name": "raa",
+          "score": -9.75
+        },
+        {
+          "letter": "ب",
+          "name": "baa",
+          "score": -9.9
+        }
+      ],
+      "margin": 4.8,
+      "duration_s": 2.9,
+      "latency_ms": 1166,
+      "round_trip_ms": 1770
+    },
+    "mis_saad_plain_s.m4a": {
+      "verdict": "correct",
+      "heard": "ص",
+      "heard_name": "saad",
+      "expected": "ص",
+      "confidence": 0.704,
+      "reason": null,
+      "top3": [
+        {
+          "letter": "ص",
+          "name": "saad",
+          "score": -12.98
+        },
+        {
+          "letter": "س",
+          "name": "seen",
+          "score": -14.25
+        },
+        {
+          "letter": "ض",
+          "name": "Daad",
+          "score": -15.64
+        }
+      ],
+      "margin": 1.27,
+      "duration_s": 2.3,
+      "latency_ms": 1105,
+      "round_trip_ms": 1647
+    },
+    "mis_seen_heavy_s.m4a": {
+      "verdict": "correct",
+      "heard": "س",
+      "heard_name": "seen",
+      "expected": "س",
+      "confidence": 0.676,
+      "reason": null,
+      "top3": [
+        {
+          "letter": "س",
+          "name": "seen",
+          "score": -9.01
+        },
+        {
+          "letter": "ع",
+          "name": "ayn",
+          "score": -10.56
+        },
+        {
+          "letter": "ش",
+          "name": "sheen",
+          "score": -11.04
+        }
+      ],
+      "margin": 1.54,
+      "duration_s": 2.01,
+      "latency_ms": 1054,
+      "round_trip_ms": 1587
+    },
+    "mis_Taa_plain_t.m4a": {
+      "verdict": "incorrect",
+      "heard": "ت",
+      "heard_name": "taa",
+      "expected": "ط",
+      "confidence": 0.894,
+      "reason": null,
+      "top3": [
+        {
+          "letter": "ت",
+          "name": "taa",
+          "score": -9.93
+        },
+        {
+          "letter": "ع",
+          "name": "ayn",
+          "score": -14.39
+        },
+        {
+          "letter": "ز",
+          "name": "zay",
+          "score": -14.47
+        }
+      ],
+      "margin": 4.46,
+      "duration_s": 1.98,
+      "latency_ms": 1015,
+      "round_trip_ms": 1544
+    },
+    "mis_Daad_plain_d.m4a": {
+      "verdict": "incorrect",
+      "heard": "ت",
+      "heard_name": "taa",
+      "expected": "ض",
+      "confidence": 0.783,
+      "reason": null,
+      "top3": [
+        {
+          "letter": "ت",
+          "name": "taa",
+          "score": -11.52
+        },
+        {
+          "letter": "ص",
+          "name": "saad",
+          "score": -13.86
+        },
+        {
+          "letter": "ض",
+          "name": "Daad",
+          "score": -13.92
+        }
+      ],
+      "margin": 2.34,
+      "duration_s": 2.18,
+      "latency_ms": 992,
+      "round_trip_ms": 1534
+    },
+    "mis_DHaa_plain_dh.m4a": {
+      "verdict": "incorrect",
+      "heard": "ض",
+      "heard_name": "Daad",
+      "expected": "ظ",
+      "confidence": 0.651,
+      "reason": null,
+      "top3": [
+        {
+          "letter": "ض",
+          "name": "Daad",
+          "score": -5.96
+        },
+        {
+          "letter": "ذ",
+          "name": "dhaal",
+          "score": -7.81
+        },
+        {
+          "letter": "ز",
+          "name": "zay",
+          "score": -8.43
+        }
+      ],
+      "margin": 1.85,
+      "duration_s": 2.43,
+      "latency_ms": 1088,
+      "round_trip_ms": 1638
+    },
+    "mis_Haa_soft_h.m4a": {
+      "verdict": "unclear",
+      "heard": null,
+      "heard_name": null,
+      "expected": "ح",
+      "confidence": 0.526,
+      "reason": "could not tell between the closest letters",
+      "top3": [
+        {
+          "letter": "ح",
+          "name": "Haa",
+          "score": -7.96
+        },
+        {
+          "letter": "ه",
+          "name": "haa",
+          "score": -8.41
+        },
+        {
+          "letter": "ك",
+          "name": "kaaf",
+          "score": -11.39
+        }
+      ],
+      "margin": 0.45,
+      "duration_s": 2.33,
+      "latency_ms": 1076,
+      "round_trip_ms": 1718
+    },
+    "mis_qaaf_as_k.m4a": {
+      "verdict": "incorrect",
+      "heard": "ك",
+      "heard_name": "kaaf",
+      "expected": "ق",
+      "confidence": 0.99,
+      "reason": null,
+      "top3": [
+        {
+          "letter": "ك",
+          "name": "kaaf",
+          "score": -5.01
+        },
+        {
+          "letter": "ق",
+          "name": "qaaf",
+          "score": -9.66
+        },
+        {
+          "letter": "ح",
+          "name": "Haa",
+          "score": -13.98
+        }
+      ],
+      "margin": 4.65,
+      "duration_s": 2.2,
+      "latency_ms": 1071,
+      "round_trip_ms": 1640
+    },
+    "mis_ayn_no_throat.m4a": {
+      "verdict": "correct",
+      "heard": "ع",
+      "heard_name": "ayn",
+      "expected": "ع",
+      "confidence": 0.913,
+      "reason": null,
+      "top3": [
+        {
+          "letter": "ع",
+          "name": "ayn",
+          "score": -5.26
+        },
+        {
+          "letter": "س",
+          "name": "seen",
+          "score": -8.52
+        },
+        {
+          "letter": "غ",
+          "name": "ghayn",
+          "score": -8.74
+        }
+      ],
+      "margin": 3.26,
+      "duration_s": 1.73,
+      "latency_ms": 928,
+      "round_trip_ms": 1517
+    },
+    "mis_khaa_as_h.m4a": {
+      "verdict": "incorrect",
+      "heard": "ك",
+      "heard_name": "kaaf",
+      "expected": "خ",
+      "confidence": 0.908,
+      "reason": null,
+      "top3": [
+        {
+          "letter": "ك",
+          "name": "kaaf",
+          "score": -8.9
+        },
+        {
+          "letter": "ت",
+          "name": "taa",
+          "score": -13.36
+        },
+        {
+          "letter": "ب",
+          "name": "baa",
+          "score": -13.45
+        }
+      ],
+      "margin": 4.45,
+      "duration_s": 2.13,
+      "latency_ms": 974,
+      "round_trip_ms": 1526
+    },
+    "silence.m4a": {
+      "verdict": "unclear",
+      "heard": null,
+      "heard_name": null,
+      "expected": "س",
+      "confidence": 0.132,
+      "reason": "could not tell between the closest letters",
+      "top3": [
+        {
+          "letter": "ك",
+          "name": "kaaf",
+          "score": -13.42
+        },
+        {
+          "letter": "م",
+          "name": "meem",
+          "score": -13.65
+        },
+        {
+          "letter": "ا",
+          "name": "alif",
+          "score": -13.86
+        }
+      ],
+      "margin": 0.23,
+      "duration_s": 3.14,
+      "latency_ms": 1132,
+      "round_trip_ms": 1666
+    },
+    "cough.m4a": {
+      "verdict": "unclear",
+      "heard": null,
+      "heard_name": null,
+      "expected": "س",
+      "confidence": 0.463,
+      "reason": "could not tell between the closest letters",
+      "top3": [
+        {
+          "letter": "ح",
+          "name": "Haa",
+          "score": -14.06
+        },
+        {
+          "letter": "ج",
+          "name": "jeem",
+          "score": -15.09
+        },
+        {
+          "letter": "ب",
+          "name": "baa",
+          "score": -15.27
+        }
+      ],
+      "margin": 1.03,
+      "duration_s": 2.47,
+      "latency_ms": 1040,
+      "round_trip_ms": 1577
+    },
+    "sentence.m4a": {
+      "verdict": "unclear",
+      "heard": null,
+      "heard_name": null,
+      "expected": "س",
+      "confidence": 0.861,
+      "reason": "no letter matched the audio well",
+      "top3": [
+        {
+          "letter": "و",
+          "name": "waw",
+          "score": -38.57
+        },
+        {
+          "letter": "ا",
+          "name": "alif",
+          "score": -41.78
+        },
+        {
+          "letter": "ن",
+          "name": "noon",
+          "score": -42.48
+        }
+      ],
+      "margin": 3.21,
+      "duration_s": 3.22,
+      "latency_ms": 1188,
+      "round_trip_ms": 1768
+    }
+  }
+}
