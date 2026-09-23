@@ -18,7 +18,10 @@ Open `https://abdullahel11--alphabet-stt-checker-web.modal.run` in a browser and
 a quiet spell takes longer while a container starts; after that it is a
 second or two.
 
-Or from a terminal, using a clip from the committed test set:
+Or from a terminal, using a clip from the committed test set. On Windows use
+`curl.exe` rather than `curl`, since PowerShell aliases `curl` to something
+else; on a managed or corporate machine you may also need `--ssl-no-revoke`
+if your network blocks certificate revocation checks.
 
 ```bash
 curl -F "audio=@eval/audio/seen.m4a" -F "expected_letter=seen" https://abdullahel11--alphabet-stt-checker-web.modal.run/check
@@ -39,7 +42,6 @@ Ask for a different letter and it should reject it:
 curl -F "audio=@eval/audio/seen.m4a" -F "expected_letter=saad" https://abdullahel11--alphabet-stt-checker-web.modal.run/check
 ```
 
-On Windows PowerShell, use `curl.exe`, not `curl`.
 
 ---
 
